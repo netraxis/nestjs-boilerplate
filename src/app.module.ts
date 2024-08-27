@@ -12,7 +12,7 @@ import { UserModule } from './user/user.module';
       password: '',
       database: 'nesttest',
       autoLoadEntities: true,
-      entities: [__dirname + '/**/*.entity{.ts,.js}'],
+      // entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: true,
     }),
     UserModule
